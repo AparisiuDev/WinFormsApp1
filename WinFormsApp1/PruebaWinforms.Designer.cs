@@ -33,6 +33,7 @@
             this.butPulsar = new System.Windows.Forms.Button();
             this.listDiasSemana = new System.Windows.Forms.ListBox();
             this.butNextForm = new System.Windows.Forms.Button();
+            this.butSQL = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -79,7 +80,7 @@
             // 
             // butNextForm
             // 
-            this.butNextForm.Location = new System.Drawing.Point(151, 265);
+            this.butNextForm.Location = new System.Drawing.Point(151, 246);
             this.butNextForm.Name = "butNextForm";
             this.butNextForm.Size = new System.Drawing.Size(75, 23);
             this.butNextForm.TabIndex = 4;
@@ -87,12 +88,23 @@
             this.butNextForm.UseVisualStyleBackColor = true;
             this.butNextForm.Click += new System.EventHandler(this.butNextForm_Click);
             // 
+            // butSQL
+            // 
+            this.butSQL.Location = new System.Drawing.Point(151, 275);
+            this.butSQL.Name = "butSQL";
+            this.butSQL.Size = new System.Drawing.Size(75, 23);
+            this.butSQL.TabIndex = 5;
+            this.butSQL.Text = "Connection";
+            this.butSQL.UseVisualStyleBackColor = true;
+            this.butSQL.Click += new System.EventHandler(this.butSQL_Click);
+            // 
             // PruebaWinforms
             // 
             this.BackColor = System.Drawing.SystemColors.Menu;
             this.BackgroundImage = global::WinFormsApp1.Properties.Resources.d14498b1d3b1274c429e6b3b7d49a1b1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(400, 317);
+            this.Controls.Add(this.butSQL);
             this.Controls.Add(this.butNextForm);
             this.Controls.Add(this.listDiasSemana);
             this.Controls.Add(this.butPulsar);
@@ -115,6 +127,7 @@
         private System.Windows.Forms.Button butPulsar;
         private System.Windows.Forms.ListBox listDiasSemana;
         private System.Windows.Forms.Button butNextForm;
+        private System.Windows.Forms.Button butSQL;
     }
 }
 

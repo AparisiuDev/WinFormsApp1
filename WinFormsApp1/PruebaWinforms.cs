@@ -32,5 +32,11 @@ namespace WinFormsApp1
             Bootstrap ch = new Bootstrap();
             ch.Show();
         }
+
+        private void butSQL_Click(object sender, EventArgs e)
+        {
+            Connection cn = new Connection();
+            cn.Show();
+        }
     }
 }

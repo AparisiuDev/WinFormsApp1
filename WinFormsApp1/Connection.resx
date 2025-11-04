@@ -117,17 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="sqljoin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sqljoin.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="d14498b1d3b1274c429e6b3b7d49a1b1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\d14498b1d3b1274c429e6b3b7d49a1b1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="4908c5545ad226fcf6354c48f1b5d527" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\4908c5545ad226fcf6354c48f1b5d527.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="acd8ea1d3c51f7f30dd222d27e09ceb6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\acd8ea1d3c51f7f30dd222d27e09ceb6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

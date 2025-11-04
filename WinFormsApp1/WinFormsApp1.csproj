@@ -52,6 +52,13 @@
     <Compile Include="Bootstrap.Designer.cs">
       <DependentUpon>Bootstrap.cs</DependentUpon>
     </Compile>
+    <Compile Include="Connection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Connection.Designer.cs">
+      <DependentUpon>Connection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Job.cs" />
     <Compile Include="PruebaWinforms.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +69,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Bootstrap.resx">
       <DependentUpon>Bootstrap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Connection.resx">
+      <DependentUpon>Connection.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PruebaWinforms.resx">
       <DependentUpon>PruebaWinforms.cs</DependentUpon>
@@ -94,6 +104,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\d14498b1d3b1274c429e6b3b7d49a1b1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4908c5545ad226fcf6354c48f1b5d527.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acd8ea1d3c51f7f30dd222d27e09ceb6.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
